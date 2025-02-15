@@ -1,0 +1,159 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "investor",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "usd_invested",
+						"type": "uint256"
+					}
+				],
+				"name": "buy_mcoins",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "investor",
+						"type": "address"
+					}
+				],
+				"name": "equity_in_mcoins",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "investor",
+						"type": "address"
+					}
+				],
+				"name": "equity_in_usd",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "max_mcoins",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "investor",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mcoins_sold",
+						"type": "uint256"
+					}
+				],
+				"name": "sell_mcoins",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "total_mcoins_bought",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "usd_to_mcoins",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mcoin_ico.sol": "mcoin_ico"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mcoin_ico.sol": {
+			"keccak256": "0x000d015fc7b021361d05bb4851e9de7033f05aa0b164d18ab52601a3f558b689",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://0c5f2d721710d5754f1ea53b6e17b2f36253e1c5e4d9ef336accb58b5c3cd8f1",
+				"dweb:/ipfs/QmXhbcJYdbW1aPUd3X6MVieeBqLCEhKSy9hB1dYqcjKcfb"
+			]
+		}
+	},
+	"version": 1
+}
